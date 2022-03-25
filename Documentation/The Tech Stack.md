@@ -15,8 +15,8 @@
 - Express is probably a good choice here
 
 - Service to be run as a RESTful API service
-	
-	- Where each service hits a specific local port which updates the db, where the UI can pull from
+
+    - Where each service hits a specific local port which updates the db, where the UI can pull from
 
 - The db of choice here is Realm, a no-SQL lightweight db that can serialize objects ( originally designed independently
   for mobile devices, now managed by mongo-db )
@@ -30,13 +30,18 @@
 
 - Further, styling of the front-end will be done using tailwindcss library + daisy-ui plugin
 
-| Technology                    | Associated Website        |
-|-------------------------------|---------------------------|
-| Charm Go-lang Library         | https://charm.sh/         |
-| Express js                    | https://expressjs.com/    |
-| Realm db                      | https://realm.io/         |
-| xterm terminal emulator       | https://xtermjs.org/      |
-| React                         | https://reactjs.org/      |
-| Tailwindcss                   | https://tailwindcss.com/  |
-| Daisyui (plugin for tailwind) | https://daisyui.com/      |
-| --------------------------    | ------------------------- |
+| Technology                                                | Associated Website                                                                        |
+|-----------------------------------------------------------|-------------------------------------------------------------------------------------------|
+| <mark style="background:red">Charm Go-lang Library</mark> | ~~https://charm.sh/~~ has been replaced by terminal-kit                                   |  
+| Express js                                                | https://expressjs.com/                                                                    |
+| Realm db                                                  | https://realm.io/                                                                         |
+| xterm terminal emulator                                   | https://xtermjs.org/                                                                      |
+| <mark>React</mark>                                        | **https://reactjs.org/** considering replacement with preact <br/>`https://preactjs.com/` |
+| Tailwindcss                                               | https://tailwindcss.com/                                                                  |
+| Daisyui (plugin for tailwind)                             | https://daisyui.com/                                                                      |
+| terminal-kit                                              | https://github.com/cronvel/terminal-kit                                                   |
+
+
+##### Package Management
+It seems like both npm and yarn are used for package management,
+but they can be used interchangeably.
